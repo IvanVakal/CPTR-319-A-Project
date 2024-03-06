@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Car Parts</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Register your account</h1>
+
+            <!--Username -->
+            <label class="input" for="username"> Username</label>
+            <input type="text" id="username" name="username" placeholder="Username" required></input>
+
+            <!--Email -->
+            <label class="input" for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email" required></input>
+
+            <!--Password-->
+            <label class="input" for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" minlength="6"
+                required></input>
+            <p class="password-hint">Must be at least 6 characters</p>
+
+            <!--Repeat Password-->
+            <label class="input" for="repeat_password">Repeat password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" minlength="6"
+                required></input>
+            <p class="password-hint">Must be at least 6 characters</p>
+
+            <!-- Button -->
+            <div class="wrap">
+                <button class="button-24" role="button" submit" onclick="solve()">
+                    Submit
+                </button>
+            </div>
+
+            <p class="question" style="white-space: nowrap;">Already have an account? <a href="main.html"
+                    style="text-decoration: none;">
+                    Sign in</a></p>
+        </div>
+    </div>
+</body>
